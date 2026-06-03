@@ -1,5 +1,3 @@
-const retrievalService = require('./retrievalService');
-const groqService = require('./groqService');
 const memoryService = require('./memoryService');
 const chromaService = require('./chromaService');
 const env = require('../config/env');
@@ -28,18 +26,23 @@ async function processQuery(query, sessionId) {
   const { sessionId: sid } = memoryService.getOrCreateSession(sessionId);
   const history = memoryService.getConversationHistory(sid);
 
-  const optimizedQuery = await groqService.optimizeQuery(query, history);
-  logger.info('Query processed', { original: query, optimized: optimizedQuery });
-
   const chunkCount = await chromaService.getCollectionCount();
   if (chunkCount === 0) {
     const err = new Error(
-      'Knowledge base is empty. Run `npm run setup` in the backend directory.'
+      chromaService.getStorageMode() === 'unavailable'
+        ? chromaService.getStorageNote()
+        : 'Knowledge base is empty. Ingest documents into the configured ChromaDB collection.'
     );
     err.statusCode = 503;
     err.code = 'KB_EMPTY';
     throw err;
   }
+
+  const retrievalService = require('./retrievalService');
+  const groqService = require('./groqService');
+
+  const optimizedQuery = await groqService.optimizeQuery(query, history);
+  logger.info('Query processed', { original: query, optimized: optimizedQuery });
 
   const rawSources = await retrievalService.hybridRetrieve(optimizedQuery);
   const confidence = assessRetrievalConfidence(query, rawSources, {
