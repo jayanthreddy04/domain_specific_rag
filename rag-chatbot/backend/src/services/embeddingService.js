@@ -1,13 +1,16 @@
-const { pipeline } = require('@xenova/transformers');
 const env = require('../config/env');
 const { logger } = require('../middleware/logger');
 
 let extractor = null;
+let pipelineFn = null;
 
 async function getExtractor() {
   if (!extractor) {
     logger.info(`Loading embedding model: ${env.embeddingModel}`);
-    extractor = await pipeline('feature-extraction', env.embeddingModel);
+    if (!pipelineFn) {
+      ({ pipeline: pipelineFn } = await import('@xenova/transformers'));
+    }
+    extractor = await pipelineFn('feature-extraction', env.embeddingModel);
   }
   return extractor;
 }
