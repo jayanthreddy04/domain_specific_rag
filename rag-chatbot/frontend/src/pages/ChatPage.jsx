@@ -23,7 +23,13 @@ const ChatPage = () => {
   useEffect(() => {
     checkHealth()
       .then(setKbStatus)
-      .catch(() => setKbStatus({ status: 'error', knowledgeBaseChunks: 0 }));
+      .catch(() =>
+        setKbStatus({
+          status: 'error',
+          knowledgeBaseChunks: 0,
+          storageNote: 'Backend health check failed. Check Vercel function logs and environment variables.',
+        })
+      );
   }, []);
 
   useEffect(() => {
@@ -112,7 +118,9 @@ const ChatPage = () => {
             >
               {kbStatus.knowledgeBaseChunks > 0
                 ? `${kbStatus.knowledgeBaseChunks} chunks · ${kbStatus.storage || 'indexed'}`
-                : 'Knowledge base empty — run npm run setup'}
+                : kbStatus.status === 'error'
+                  ? 'Backend health check failed'
+                  : 'Knowledge base empty — ingest ChromaDB'}
             </span>
           )}
           <button type="button" className="btn-secondary" onClick={handleClearChat}>

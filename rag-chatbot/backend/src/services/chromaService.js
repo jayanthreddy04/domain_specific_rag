@@ -54,6 +54,15 @@ function activateLocalStore(reason) {
   logger.info(`Using local vector store (${localStore.getCount()} chunks)`);
 }
 
+function markUnavailable(reason) {
+  useLocalFallback = false;
+  storageMode = 'unavailable';
+  storageNote = reason;
+  client = null;
+  collection = null;
+  logger.warn(reason);
+}
+
 async function resolveStorage() {
   if (storageMode !== 'unknown') {
     return;
@@ -67,14 +76,24 @@ async function resolveStorage() {
   if (isCloudConfigured()) {
     try {
       await connectCloudChroma();
-      const count = await collection.count();
-      if (count > 0) return;
-      logger.warn(`Chroma Cloud collection "${env.chromaCollection}" is empty`);
+      await collection.count();
+      return;
     } catch (err) {
       logger.warn(`Chroma Cloud unavailable: ${err.message}`);
       client = null;
       collection = null;
+      storageMode = 'unknown';
+      storageNote = '';
     }
+  }
+
+  if (env.nodeEnv === 'production') {
+    markUnavailable(
+      isCloudConfigured()
+        ? 'Chroma Cloud unavailable; check Vercel CHROMA_* environment variables and function logs'
+        : 'Chroma Cloud is not configured; add CHROMA_API_KEY, CHROMA_TENANT, and CHROMA_DATABASE in Vercel'
+    );
+    return;
   }
 
   try {
@@ -177,7 +196,15 @@ async function getAllDocumentsForBm25() {
 async function getCollectionCount() {
   await ensureReady();
   if (useLocalFallback) return localStore.getCount();
-  return collection.count();
+  if (!collection) return 0;
+  try {
+    return await collection.count();
+  } catch (err) {
+    storageMode = 'unknown';
+    storageNote = `Chroma count failed: ${err.message}`;
+    logger.warn(storageNote);
+    return 0;
+  }
 }
 
 async function resetCollection() {

@@ -45,7 +45,7 @@ async function getHealth(req, res) {
     domain: 'Artificial Intelligence',
     setupHint:
       chunkCount === 0
-        ? 'Run `npm run setup` in the backend folder to index 52 AI documents.'
+        ? 'Knowledge base has 0 chunks. Ingest documents into the configured ChromaDB collection, then redeploy or retry.'
         : null,
   });
 }
