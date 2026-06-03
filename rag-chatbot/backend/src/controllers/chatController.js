@@ -1,9 +1,8 @@
-const chatService = require('../services/chatService');
-const evaluationService = require('../services/evaluationService');
 const chromaService = require('../services/chromaService');
 
 async function handleUserQuery(req, res, next) {
   try {
+    const chatService = require('../services/chatService');
     const { query, sessionId } = req.body;
     if (!query?.trim()) {
       return res.status(400).json({ success: false, error: 'Query is required' });
@@ -17,6 +16,7 @@ async function handleUserQuery(req, res, next) {
 
 async function getChatHistory(req, res, next) {
   try {
+    const chatService = require('../services/chatService');
     const sessionId = req.params.sessionId || req.query.sessionId;
     const history = chatService.fetchChatHistory(sessionId);
     res.json(history);
@@ -27,6 +27,7 @@ async function getChatHistory(req, res, next) {
 
 async function clearChat(req, res, next) {
   try {
+    const chatService = require('../services/chatService');
     const { sessionId } = req.body;
     const result = chatService.clearChat(sessionId);
     res.json(result);
@@ -52,6 +53,7 @@ async function getHealth(req, res) {
 
 async function runEvaluation(req, res, next) {
   try {
+    const evaluationService = require('../services/evaluationService');
     const results = await evaluationService.runFullEvaluation({
       skipLlm: req.query.skipLlm === 'true',
     });
