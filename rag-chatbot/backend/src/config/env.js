@@ -9,6 +9,7 @@ module.exports = {
   chromaPath: process.env.CHROMA_PATH || 'http://localhost:8000',
   chromaCollection: process.env.CHROMA_COLLECTION || 'ai_knowledge_base',
   chromaHost: process.env.CHROMA_HOST || 'api.trychroma.com',
+  chromaPort: process.env.CHROMA_PORT || '8000',
   chromaApiKey: process.env.CHROMA_API_KEY || '',
   chromaTenant: process.env.CHROMA_TENANT || '',
   chromaDatabase: process.env.CHROMA_DATABASE || '',

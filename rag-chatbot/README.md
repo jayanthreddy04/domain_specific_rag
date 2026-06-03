@@ -79,7 +79,8 @@ Set these in **Vercel Project Settings → Environment Variables**:
 GROQ_API_KEY=your_groq_key
 GROQ_MODEL=llama-3.3-70b-versatile
 USE_LOCAL_VECTOR_STORE=false
-CHROMA_HOST=api.trychroma.com
+CHROMA_HOST=https://api.trychroma.com
+CHROMA_PORT=8000
 CHROMA_API_KEY=your_chroma_cloud_api_key
 CHROMA_TENANT=your_tenant_uuid
 CHROMA_DATABASE=your_database_name

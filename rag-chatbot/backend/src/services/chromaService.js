@@ -13,12 +13,28 @@ function isCloudConfigured() {
   return Boolean(env.chromaApiKey && env.chromaTenant && env.chromaDatabase);
 }
 
+function normalizeCloudConnection(host, port) {
+  const withProtocol = /^https?:\/\//i.test(host) ? host : `https://${host}`;
+  const url = new URL(withProtocol);
+
+  return {
+    cloudHost: `${url.protocol}//${url.hostname}`,
+    cloudPort: url.port || port,
+  };
+}
+
 async function connectCloudChroma() {
+  const { cloudHost, cloudPort } = normalizeCloudConnection(
+    env.chromaHost,
+    env.chromaPort
+  );
+
   client = new CloudClient({
     apiKey: env.chromaApiKey,
     tenant: env.chromaTenant,
     database: env.chromaDatabase,
-    cloudHost: env.chromaHost,
+    cloudHost,
+    cloudPort,
   });
   await client.heartbeat();
   collection = await client.getOrCreateCollection({
@@ -27,7 +43,7 @@ async function connectCloudChroma() {
   });
   storageMode = 'chromadb-cloud';
   storageNote = `Chroma Cloud (${env.chromaDatabase})`;
-  logger.info(`Chroma Cloud connected: ${env.chromaHost} / ${env.chromaDatabase}`);
+  logger.info(`Chroma Cloud connected: ${cloudHost}:${cloudPort} / ${env.chromaDatabase}`);
 }
 
 async function connectLocalChromaServer() {
