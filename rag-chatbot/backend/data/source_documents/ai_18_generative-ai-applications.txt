@@ -1,0 +1,7 @@
+Generative AI Applications
+==========================
+
+Generative AI creates new content including text, images, audio, and code. Diffusion models synthesize images iteratively denoising latents. GANs pit generator and discriminator networks. Text generation powers chatbots, summarization, and creative writing. Risks include misinformation, copyright issues, and synthetic media abuse. Watermarking and provenance tools help authenticate content. Enterprise adoption focuses on productivity with guardrails.
+
+Document ID: ai_18
+Category: Artificial Intelligence

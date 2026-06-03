@@ -1,0 +1,7 @@
+Explainable AI Methods
+======================
+
+Explainable AI helps users understand model decisions. Intrinsic interpretability uses simple models like linear regression and decision trees. Post-hoc methods include SHAP values, LIME, and attention visualization. Counterfactual explanations show minimal changes altering predictions. Tradeoffs exist between accuracy and interpretability in high-stakes domains like healthcare and lending. Regulations may mandate explanation for automated decisions affecting individuals.
+
+Document ID: ai_16
+Category: Artificial Intelligence

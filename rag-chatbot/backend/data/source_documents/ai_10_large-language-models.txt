@@ -1,0 +1,7 @@
+Large Language Models
+=====================
+
+Large language models (LLMs) are transformer-based systems trained on massive text corpora. They exhibit emergent abilities in reasoning, coding, and dialogue. Pretraining objectives include causal language modeling and masked prediction. Instruction tuning and reinforcement learning from human feedback align behavior with user intent. Challenges include hallucinations, bias, privacy, and environmental cost. Retrieval-augmented generation grounds responses in external knowledge.
+
+Document ID: ai_10
+Category: Artificial Intelligence

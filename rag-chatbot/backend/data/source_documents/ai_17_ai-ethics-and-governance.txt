@@ -1,0 +1,7 @@
+AI Ethics and Governance
+========================
+
+AI ethics addresses autonomy, accountability, privacy, and societal impact. Governance frameworks define policies for data use, model deployment, and incident response. Human-in-the-loop systems maintain oversight for critical decisions. Red teaming probes vulnerabilities. International standards and national AI strategies shape industry practice. Ethical AI is not only technical but organizational, requiring leadership commitment and continuous monitoring.
+
+Document ID: ai_17
+Category: Artificial Intelligence

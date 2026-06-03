@@ -1,0 +1,7 @@
+Recommendation Systems
+======================
+
+Recommendation systems personalize content and products. Collaborative filtering uses user-item interaction matrices. Content-based methods use item attributes. Hybrid models combine both signals. Deep learning captures nonlinear patterns. Cold-start problems affect new users and items. Evaluation metrics include precision at k, recall, and NDCG. Ethical issues include filter bubbles and manipulative design.
+
+Document ID: ai_28
+Category: Artificial Intelligence

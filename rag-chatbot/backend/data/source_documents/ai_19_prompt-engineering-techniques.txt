@@ -1,0 +1,7 @@
+Prompt Engineering Techniques
+=============================
+
+Prompt engineering designs inputs that elicit reliable LLM behavior. Zero-shot prompts rely on pretrained knowledge. Few-shot prompts include exemplars demonstrating desired format. Chain-of-thought prompting encourages step-by-step reasoning. System messages define role and constraints. Temperature controls randomness. Structured outputs use JSON schemas. Iterative refinement and evaluation sets improve consistency for production applications.
+
+Document ID: ai_19
+Category: Artificial Intelligence

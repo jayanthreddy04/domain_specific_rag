@@ -1,0 +1,7 @@
+Reinforcement Learning Principles
+=================================
+
+Reinforcement learning trains agents to maximize cumulative reward in environments. Components include states, actions, policies, and value functions. Exploration versus exploitation is central. Algorithms include Q-learning, SARSA, policy gradients, and actor-critic methods. Deep reinforcement learning combines neural networks with RL for complex control tasks. Applications include game playing, robotics, and recommendation systems. Safety and reward hacking are important research areas.
+
+Document ID: ai_06
+Category: Artificial Intelligence

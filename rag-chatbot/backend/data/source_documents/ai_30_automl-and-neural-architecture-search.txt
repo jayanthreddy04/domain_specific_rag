@@ -1,0 +1,7 @@
+AutoML and Neural Architecture Search
+=====================================
+
+AutoML automates model selection, hyperparameter tuning, and pipeline design. Neural architecture search explores network topologies with reinforcement learning or evolutionary algorithms. Tools like Auto-sklearn and H2O democratize machine learning. Benefits include faster experimentation for non-experts. Risks include black-box solutions without domain understanding. Human expertise remains valuable for problem framing and evaluation.
+
+Document ID: ai_30
+Category: Artificial Intelligence

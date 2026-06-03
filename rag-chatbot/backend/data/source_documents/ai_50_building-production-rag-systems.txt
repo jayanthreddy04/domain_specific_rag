@@ -1,0 +1,7 @@
+Building Production RAG Systems
+===============================
+
+Production RAG requires ingestion pipelines, vector stores, retrieval tuning, and monitored generation. Document preprocessing includes cleaning, chunking, and metadata extraction. Hybrid retrieval and reranking improve recall and precision. Conversational memory handles follow-up questions. Citations build user trust. Evaluation tracks Precision at K, Recall at K, MRR, hit rate, faithfulness, and latency. Continuous updates refresh knowledge bases as content changes.
+
+Document ID: ai_50
+Category: Artificial Intelligence

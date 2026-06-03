@@ -1,0 +1,177 @@
+[
+  {
+    "question": "What is artificial intelligence and what are its core goals?",
+    "expected_answer": "Artificial Intelligence is a field of computer science focused on creating systems that perform tasks requiring human-like intelligence, including reasoning, learning, perception, and language understanding.",
+    "relevant_doc_ids": ["ai_01"]
+  },
+  {
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "expected_answer": "Supervised learning uses labeled examples to predict outputs, while unsupervised learning discovers structure in unlabeled data without labeled targets.",
+    "relevant_doc_ids": ["ai_02", "ai_07", "ai_08"]
+  },
+  {
+    "question": "How do convolutional neural networks process images?",
+    "expected_answer": "CNNs stack convolution and pooling layers to detect local patterns like edges and textures, using kernels and architectures such as ResNet with skip connections.",
+    "relevant_doc_ids": ["ai_05", "ai_51"]
+  },
+  {
+    "question": "What is a transformer and why is self-attention important?",
+    "expected_answer": "Transformers use self-attention so each token can relate to all others, capturing long-range dependencies without recurrence, enabling scalable sequence modeling.",
+    "relevant_doc_ids": ["ai_09", "ai_52"]
+  },
+  {
+    "question": "How does retrieval-augmented generation improve LLM answers?",
+    "expected_answer": "RAG retrieves relevant document chunks via embeddings and vector search, then conditions the language model on that context to improve factual accuracy and enable citations.",
+    "relevant_doc_ids": ["ai_11", "ai_50"]
+  },
+  {
+    "question": "What are vector databases used for in AI applications?",
+    "expected_answer": "Vector databases store embeddings for fast similarity search, enabling semantic retrieval with indexes like HNSW and metadata filtering.",
+    "relevant_doc_ids": ["ai_12"]
+  },
+  {
+    "question": "What is overfitting and how can it be reduced?",
+    "expected_answer": "Overfitting is when models memorize training noise; regularization techniques include dropout, data augmentation, L1/L2 penalties, and simpler models with more data.",
+    "relevant_doc_ids": ["ai_14"]
+  },
+  {
+    "question": "What ethical issues arise from bias in AI systems?",
+    "expected_answer": "AI can perpetuate societal biases from training data; mitigation includes balanced sampling, fairness metrics, transparency, and diverse stakeholder engagement.",
+    "relevant_doc_ids": ["ai_15", "ai_17"]
+  },
+  {
+    "question": "What is explainable AI?",
+    "expected_answer": "Explainable AI helps users understand model decisions using interpretable models or post-hoc methods like SHAP, LIME, and attention visualization.",
+    "relevant_doc_ids": ["ai_16"]
+  },
+  {
+    "question": "How does reinforcement learning work?",
+    "expected_answer": "Reinforcement learning trains agents to maximize cumulative reward through states, actions, policies, and algorithms like Q-learning and policy gradients.",
+    "relevant_doc_ids": ["ai_06"]
+  },
+  {
+    "question": "What are large language models?",
+    "expected_answer": "LLMs are transformer-based models trained on massive text corpora with abilities in reasoning and dialogue, aligned via instruction tuning and RLHF.",
+    "relevant_doc_ids": ["ai_10"]
+  },
+  {
+    "question": "What is prompt engineering?",
+    "expected_answer": "Prompt engineering designs LLM inputs using zero-shot, few-shot, chain-of-thought techniques, system messages, and temperature control for reliable outputs.",
+    "relevant_doc_ids": ["ai_19"]
+  },
+  {
+    "question": "What is transfer learning and fine-tuning?",
+    "expected_answer": "Transfer learning adapts pretrained models to new tasks; fine-tuning updates weights on domain data, with efficient methods like LoRA and adapters.",
+    "relevant_doc_ids": ["ai_20"]
+  },
+  {
+    "question": "What is MLOps?",
+    "expected_answer": "MLOps applies DevOps to ML lifecycles including versioning, CI/CD, deployment APIs, monitoring drift, and containerized scalable serving.",
+    "relevant_doc_ids": ["ai_21"]
+  },
+  {
+    "question": "What is edge AI?",
+    "expected_answer": "Edge AI runs models on devices for low latency and privacy, using compression like quantization and frameworks such as TensorFlow Lite.",
+    "relevant_doc_ids": ["ai_22"]
+  },
+  {
+    "question": "How is AI used in healthcare?",
+    "expected_answer": "Healthcare AI supports diagnosis, imaging, clinical NLP, and predictive analytics while requiring regulatory compliance and clinician oversight.",
+    "relevant_doc_ids": ["ai_23"]
+  },
+  {
+    "question": "How does machine learning help cybersecurity?",
+    "expected_answer": "ML enhances cybersecurity via anomaly detection, malware classification, and phishing identification while facing adversarial evasion risks.",
+    "relevant_doc_ids": ["ai_24"]
+  },
+  {
+    "question": "What is federated learning?",
+    "expected_answer": "Federated learning trains across decentralized devices without sharing raw data, aggregating local updates with optional differential privacy.",
+    "relevant_doc_ids": ["ai_31"]
+  },
+  {
+    "question": "What is differential privacy in machine learning?",
+    "expected_answer": "Differential privacy limits information leakage about individuals by adding controlled noise with privacy budgets defined by epsilon and delta.",
+    "relevant_doc_ids": ["ai_32"]
+  },
+  {
+    "question": "What are adversarial examples?",
+    "expected_answer": "Adversarial examples are crafted inputs designed to fool models with small perturbations; defenses include adversarial training and robustness testing.",
+    "relevant_doc_ids": ["ai_33"]
+  },
+  {
+    "question": "What are graph neural networks?",
+    "expected_answer": "GNNs learn on graph-structured data using message passing for applications like fraud detection, molecules, and traffic prediction.",
+    "relevant_doc_ids": ["ai_35"]
+  },
+  {
+    "question": "What is multimodal AI?",
+    "expected_answer": "Multimodal AI processes text, images, audio, and video jointly, often aligning embeddings with models like CLIP and unified transformers.",
+    "relevant_doc_ids": ["ai_36"]
+  },
+  {
+    "question": "What hardware accelerates deep learning?",
+    "expected_answer": "GPUs, TPUs, and NPUs parallelize tensor operations; memory bandwidth and energy efficiency are key considerations for training and inference.",
+    "relevant_doc_ids": ["ai_37"]
+  },
+  {
+    "question": "What is semantic search?",
+    "expected_answer": "Semantic search retrieves by meaning using dense embeddings, often combined with BM25 hybrid retrieval and reranking for better relevance.",
+    "relevant_doc_ids": ["ai_42"]
+  },
+  {
+    "question": "How can LLM hallucinations be mitigated?",
+    "expected_answer": "Mitigations include retrieval grounding, confidence calibration, constrained decoding, self-consistency checks, and human review for critical facts.",
+    "relevant_doc_ids": ["ai_46"]
+  },
+  {
+    "question": "What are AI agents?",
+    "expected_answer": "AI agents pursue goals by planning and using tools via patterns like ReAct, with memory and guardrails to limit unsafe actions.",
+    "relevant_doc_ids": ["ai_45"]
+  },
+  {
+    "question": "What is natural language processing used for?",
+    "expected_answer": "NLP covers tokenization, NER, sentiment, translation, and question answering using transformers, embeddings, and large language models.",
+    "relevant_doc_ids": ["ai_04"]
+  },
+  {
+    "question": "What is generative AI?",
+    "expected_answer": "Generative AI creates text, images, audio, and code using models like diffusion networks and GANs, with risks around misinformation and copyright.",
+    "relevant_doc_ids": ["ai_18"]
+  },
+  {
+    "question": "What is a knowledge graph?",
+    "expected_answer": "Knowledge graphs represent entities and relationships structurally, supporting reasoning, recommendations, and neuro-symbolic AI integration.",
+    "relevant_doc_ids": ["ai_26"]
+  },
+  {
+    "question": "How do recommendation systems work?",
+    "expected_answer": "They personalize via collaborative filtering, content-based features, hybrid deep models, and metrics like precision at k and NDCG.",
+    "relevant_doc_ids": ["ai_28"]
+  },
+  {
+    "question": "What is active learning?",
+    "expected_answer": "Active learning selects the most informative unlabeled samples for human annotation to reduce labeling cost while improving models iteratively.",
+    "relevant_doc_ids": ["ai_41"]
+  },
+  {
+    "question": "What is AutoML?",
+    "expected_answer": "AutoML automates model and hyperparameter selection, including neural architecture search, accelerating experimentation for practitioners.",
+    "relevant_doc_ids": ["ai_30"]
+  },
+  {
+    "question": "What is causal inference in AI?",
+    "expected_answer": "Causal inference estimates intervention effects beyond correlation using experiments, structural models, and methods like propensity scores.",
+    "relevant_doc_ids": ["ai_34"]
+  },
+  {
+    "question": "What are common NLP preprocessing steps for RAG?",
+    "expected_answer": "Preprocessing includes tokenization, normalization, chunking, and metadata extraction, which affect embedding quality and retrieval performance.",
+    "relevant_doc_ids": ["ai_47", "ai_50"]
+  },
+  {
+    "question": "What does the EU AI Act emphasize for organizations?",
+    "expected_answer": "AI regulation requires risk classification, documentation, data governance, audit trails, and human oversight especially for high-risk applications.",
+    "relevant_doc_ids": ["ai_43"]
+  }
+]

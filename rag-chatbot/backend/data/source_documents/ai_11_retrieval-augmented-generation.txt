@@ -1,0 +1,7 @@
+Retrieval-Augmented Generation
+==============================
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with language model generation. Documents are chunked, embedded, and stored in vector databases. Queries retrieve relevant passages via similarity search. The LLM generates answers conditioned on retrieved context, improving factual accuracy. Hybrid retrieval merges dense vectors with sparse keyword methods. Reranking improves relevance. Citations increase transparency. Evaluation measures retrieval precision and answer faithfulness.
+
+Document ID: ai_11
+Category: Artificial Intelligence

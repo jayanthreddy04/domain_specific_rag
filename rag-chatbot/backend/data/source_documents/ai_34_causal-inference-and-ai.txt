@@ -1,0 +1,7 @@
+Causal Inference and AI
+=======================
+
+Causal inference estimates effects of interventions beyond correlation. Structural causal models represent variables and mechanisms. Randomized experiments provide gold-standard evidence. Observational methods use propensity scores and instrumental variables. ML models often confuse correlation with causation. Causal discovery algorithms infer graphs from data. Policy decisions in economics and medicine benefit from causal reasoning.
+
+Document ID: ai_34
+Category: Artificial Intelligence

@@ -1,0 +1,26 @@
+require('dotenv').config();
+
+module.exports = {
+  port: parseInt(process.env.PORT, 10) || 5001,
+  nodeEnv: process.env.NODE_ENV || 'development',
+  logLevel: process.env.LOG_LEVEL || 'info',
+  groqApiKey: process.env.GROQ_API_KEY,
+  groqModel: process.env.GROQ_MODEL || 'llama-3.3-70b-versatile',
+  chromaPath: process.env.CHROMA_PATH || 'http://localhost:8000',
+  chromaCollection: process.env.CHROMA_COLLECTION || 'ai_knowledge_base',
+  chromaHost: process.env.CHROMA_HOST || 'api.trychroma.com',
+  chromaApiKey: process.env.CHROMA_API_KEY || '',
+  chromaTenant: process.env.CHROMA_TENANT || '',
+  chromaDatabase: process.env.CHROMA_DATABASE || '',
+  chunkSize: parseInt(process.env.CHUNK_SIZE, 10) || 400,
+  chunkOverlap: parseInt(process.env.CHUNK_OVERLAP, 10) || 80,
+  retrievalTopK: parseInt(process.env.RETRIEVAL_TOP_K, 10) || 12,
+  rerankTopK: parseInt(process.env.RERANK_TOP_K, 10) || 5,
+  hybridAlpha: parseFloat(process.env.HYBRID_ALPHA) || 0.7,
+  embeddingModel: process.env.EMBEDDING_MODEL || 'Xenova/all-MiniLM-L6-v2',
+  frontendUrl: process.env.FRONTEND_URL || 'http://localhost:3000',
+  documentsPath: process.env.DOCUMENTS_PATH || './data/source_documents',
+  useLocalVectorStore: process.env.USE_LOCAL_VECTOR_STORE === 'true',
+  minRelevanceScore: parseFloat(process.env.MIN_RELEVANCE_SCORE) || 0.32,
+  minQueryOverlap: parseFloat(process.env.MIN_QUERY_OVERLAP) || 0.08,
+};

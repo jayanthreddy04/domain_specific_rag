@@ -1,0 +1,7 @@
+Computer Vision Basics
+======================
+
+Computer vision extracts information from images and video. Tasks include classification, object detection, segmentation, and pose estimation. Pipelines involve acquisition, preprocessing, feature extraction, and inference. CNNs revolutionized vision benchmarks. Data augmentation improves robustness. Metrics include accuracy, precision, recall, and mean average precision. Ethical concerns include surveillance, deepfakes, and biased facial recognition systems.
+
+Document ID: ai_05
+Category: Artificial Intelligence

@@ -1,0 +1,7 @@
+Multimodal AI Systems
+=====================
+
+Multimodal models process text, images, audio, and video jointly. Contrastive learning aligns embeddings across modalities as in CLIP. Vision-language models answer questions about images. Unified transformers tokenize diverse inputs. Applications include document understanding, accessibility, and content moderation. Challenges include alignment quality, hallucination across modalities, and dataset bias.
+
+Document ID: ai_36
+Category: Artificial Intelligence

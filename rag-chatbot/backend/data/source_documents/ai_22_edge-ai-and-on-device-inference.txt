@@ -1,0 +1,7 @@
+Edge AI and On-Device Inference
+===============================
+
+Edge AI runs models on devices like phones, cameras, and IoT sensors. Benefits include low latency, privacy, and offline operation. Model compression uses quantization, pruning, and knowledge distillation. Hardware accelerators include NPUs and TPUs at the edge. Frameworks like TensorFlow Lite and ONNX Runtime optimize inference. Tradeoffs involve limited memory and power versus cloud-scale models.
+
+Document ID: ai_22
+Category: Artificial Intelligence

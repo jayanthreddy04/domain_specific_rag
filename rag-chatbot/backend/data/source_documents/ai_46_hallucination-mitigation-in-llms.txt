@@ -1,0 +1,7 @@
+Hallucination Mitigation in LLMs
+================================
+
+Hallucinations are plausible but incorrect LLM outputs. Mitigations include retrieval grounding, confidence calibration, and self-consistency checks. Constrained decoding enforces formats. Human review remains important for high-stakes domains. Evaluation benchmarks measure factual accuracy. Training on curated data and refusal behaviors reduces fabrication. Users should verify critical facts against authoritative sources.
+
+Document ID: ai_46
+Category: Artificial Intelligence

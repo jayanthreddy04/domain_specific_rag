@@ -1,0 +1,7 @@
+MLOps and Model Deployment
+==========================
+
+MLOps applies DevOps practices to machine learning lifecycles. Pipelines version data, code, and models reproducibly. Continuous integration tests training scripts. Continuous deployment serves models via REST or gRPC APIs. Monitoring tracks latency, drift, and error rates. Feature stores centralize transformations. Containerization with Docker and orchestration with Kubernetes scale services. Rollback strategies mitigate bad releases.
+
+Document ID: ai_21
+Category: Artificial Intelligence

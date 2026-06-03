@@ -1,0 +1,7 @@
+Machine Learning Fundamentals
+=============================
+
+Machine learning enables computers to improve performance on tasks through experience without explicit programming for every rule. Supervised learning uses labeled examples to predict outputs. Unsupervised learning discovers structure in unlabeled data. Reinforcement learning optimizes actions via rewards. Key concepts include features, labels, training sets, validation, overfitting, and generalization. Popular algorithms include linear regression, decision trees, random forests, and gradient boosting.
+
+Document ID: ai_02
+Category: Artificial Intelligence

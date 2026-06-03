@@ -1,0 +1,7 @@
+Open Source AI Ecosystem
+========================
+
+Open source frameworks include PyTorch, TensorFlow, Hugging Face Transformers, and LangChain. Open weights models enable local deployment and research. Communities share datasets, benchmarks, and reproducibility tools. Licenses vary for commercial use restrictions. Open source accelerates innovation but requires security review of dependencies. Contributions follow governance models like technical steering committees.
+
+Document ID: ai_44
+Category: Artificial Intelligence

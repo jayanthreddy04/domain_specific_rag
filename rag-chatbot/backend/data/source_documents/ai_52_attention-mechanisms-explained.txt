@@ -1,0 +1,7 @@
+Attention Mechanisms Explained
+==============================
+
+Attention computes weighted combinations of values based on query-key compatibility. Scaled dot-product attention divides scores by square root of dimension for stability. Multi-head attention runs parallel attention operations. Self-attention relates positions within one sequence. Cross-attention connects encoder and decoder sequences. Attention maps provide interpretability showing which tokens influence outputs.
+
+Document ID: ai_52
+Category: Artificial Intelligence

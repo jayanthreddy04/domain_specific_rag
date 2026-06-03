@@ -1,0 +1,7 @@
+Data Labeling and Annotation
+============================
+
+High-quality labels are critical for supervised learning success. Annotation platforms coordinate human labelers with guidelines. Active learning selects informative samples for labeling. Weak supervision uses noisy heuristics aggregated probabilistically. Inter-annotator agreement measures consistency. Costs scale with task complexity. Synthetic labels from simulations supplement real data in robotics and gaming.
+
+Document ID: ai_38
+Category: Artificial Intelligence

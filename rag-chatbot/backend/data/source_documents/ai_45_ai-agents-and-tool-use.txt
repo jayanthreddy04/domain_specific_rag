@@ -1,0 +1,7 @@
+AI Agents and Tool Use
+======================
+
+AI agents pursue goals by planning actions and using external tools. ReAct patterns interleave reasoning and tool calls. APIs provide calculators, search, databases, and code execution. Memory stores conversation and retrieved facts. Multi-agent systems delegate subtasks. Reliability challenges include error propagation and infinite loops. Guardrails limit permissions and validate outputs before execution.
+
+Document ID: ai_45
+Category: Artificial Intelligence

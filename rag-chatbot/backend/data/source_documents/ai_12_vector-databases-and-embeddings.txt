@@ -1,0 +1,7 @@
+Vector Databases and Embeddings
+===============================
+
+Vector databases store high-dimensional embeddings for fast similarity search. Embeddings map text, images, or audio into dense vectors capturing semantic meaning. Approximate nearest neighbor indexes like HNSW enable scalable retrieval. Metadata filters narrow results by domain or date. ChromaDB, Pinecone, and FAISS are popular solutions. Embedding models include sentence transformers and proprietary APIs. Normalization and cosine similarity are standard distance metrics.
+
+Document ID: ai_12
+Category: Artificial Intelligence

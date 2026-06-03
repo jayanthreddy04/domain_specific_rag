@@ -1,0 +1,7 @@
+AI in Healthcare
+================
+
+AI in healthcare supports diagnosis, treatment planning, and operations. Medical imaging models detect tumors and fractures in radiology. NLP extracts information from clinical notes. Predictive models identify readmission risk. Challenges include regulatory approval, interoperability, and clinician trust. Patient privacy demands HIPAA-compliant data handling. AI augments rather than replaces professional judgment when validated rigorously.
+
+Document ID: ai_23
+Category: Artificial Intelligence

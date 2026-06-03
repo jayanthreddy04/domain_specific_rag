@@ -1,0 +1,7 @@
+Supervised Learning Algorithms
+==============================
+
+Supervised learning maps inputs to known outputs using labeled datasets. Classification predicts discrete categories; regression predicts continuous values. Evaluation uses train-validation-test splits and cross-validation. Metrics for classification include accuracy, F1-score, and ROC-AUC. Regularization techniques like L1 and L2 reduce overfitting. Support vector machines find maximum-margin boundaries. Ensemble methods combine weak learners for stronger performance.
+
+Document ID: ai_07
+Category: Artificial Intelligence

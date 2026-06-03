@@ -1,0 +1,7 @@
+Bias and Fairness in AI
+=======================
+
+AI systems can perpetuate societal biases present in training data. Fairness metrics evaluate disparate impact across demographic groups. Mitigation includes balanced sampling, adversarial debiasing, and fairness constraints. Transparency through model cards documents limitations. Diverse teams and stakeholder engagement improve outcomes. Regulatory frameworks increasingly require impact assessments. Fairness is context-dependent and requires domain-specific definitions.
+
+Document ID: ai_15
+Category: Artificial Intelligence

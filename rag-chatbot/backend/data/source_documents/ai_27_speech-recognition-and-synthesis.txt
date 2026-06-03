@@ -1,0 +1,7 @@
+Speech Recognition and Synthesis
+================================
+
+Automatic speech recognition converts audio to text using acoustic and language models. End-to-end architectures simplify traditional pipelines. Text-to-speech generates natural voices via neural vocoders. Speaker identification and diarization segment conversations. Noise robustness and accented speech remain challenges. Voice assistants integrate ASR, NLU, and dialogue management. Accessibility applications benefit visually impaired users.
+
+Document ID: ai_27
+Category: Artificial Intelligence

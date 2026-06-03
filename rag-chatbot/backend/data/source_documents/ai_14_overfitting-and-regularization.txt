@@ -1,0 +1,7 @@
+Overfitting and Regularization
+==============================
+
+Overfitting occurs when models memorize training noise and fail on new data. Regularization constrains model complexity. Dropout randomly disables neurons during training. Data augmentation artificially expands datasets. L1 sparsity and L2 weight decay penalize large parameters. Simpler models and more data often generalize better. Bias-variance tradeoff guides model selection. Monitoring validation metrics detects overfitting early.
+
+Document ID: ai_14
+Category: Artificial Intelligence

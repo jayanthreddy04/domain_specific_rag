@@ -1,0 +1,7 @@
+Semantic Search Technology
+==========================
+
+Semantic search retrieves by meaning rather than exact keyword match. Dense embeddings represent queries and documents in shared vector spaces. Hybrid search combines BM25 lexical scores with vector similarity via reciprocal rank fusion. Query expansion and rewriting improve recall. Rerankers reorder candidates with cross-encoders. Enterprise search benefits from domain-specific fine-tuning and access control metadata.
+
+Document ID: ai_42
+Category: Artificial Intelligence

@@ -1,0 +1,7 @@
+Robotics and Embodied AI
+========================
+
+Embodied AI integrates perception, planning, and control in physical robots. Simulators like Gazebo accelerate training before real-world deployment. SLAM builds maps for navigation. Manipulation requires grasp planning and force control. Human-robot collaboration needs safe motion primitives. Sim-to-real transfer bridges simulation gaps. Autonomous vehicles combine computer vision, sensor fusion, and decision systems.
+
+Document ID: ai_25
+Category: Artificial Intelligence

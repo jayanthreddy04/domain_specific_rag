@@ -1,0 +1,7 @@
+AI Hardware Accelerators
+========================
+
+GPUs parallelize matrix operations essential for deep learning. TPUs optimize tensor computations at scale. NPUs in mobile chips enable efficient inference. Memory bandwidth often bottlenecks training. Cloud providers offer managed GPU clusters. Custom ASICs target specific model architectures. Energy efficiency is increasingly important for sustainable AI scaling.
+
+Document ID: ai_37
+Category: Artificial Intelligence

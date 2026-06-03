@@ -1,0 +1,7 @@
+AI Regulation and Compliance
+============================
+
+Governments propose AI acts requiring risk classification and documentation. High-risk applications include hiring, credit scoring, and medical devices. Compliance involves data governance, audit trails, and human oversight. The EU AI Act influences global standards. Organizations maintain model inventories and impact assessments. Legal teams collaborate with engineers on permissible use cases and transparency obligations.
+
+Document ID: ai_43
+Category: Artificial Intelligence

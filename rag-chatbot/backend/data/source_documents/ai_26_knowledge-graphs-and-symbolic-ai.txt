@@ -1,0 +1,7 @@
+Knowledge Graphs and Symbolic AI
+================================
+
+Knowledge graphs represent entities and relationships in structured form. They support query answering, recommendation, and reasoning. Symbolic AI uses logic rules and ontologies. Neuro-symbolic approaches combine neural learning with explicit knowledge. Graph embeddings learn vector representations of nodes. RDF and SPARQL are semantic web standards. Enterprise knowledge management benefits from graph-augmented retrieval.
+
+Document ID: ai_26
+Category: Artificial Intelligence

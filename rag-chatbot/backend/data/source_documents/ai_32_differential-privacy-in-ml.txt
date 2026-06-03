@@ -1,0 +1,7 @@
+Differential Privacy in ML
+==========================
+
+Differential privacy provides mathematical guarantees limiting information leakage about individuals. Noise injection during training or query responses enforces privacy budgets. Epsilon and delta parameters quantify privacy loss. Tradeoffs exist between utility and privacy strength. Federated learning often combines with differential privacy. Compliance with GDPR motivates privacy-preserving analytics in enterprise AI.
+
+Document ID: ai_32
+Category: Artificial Intelligence

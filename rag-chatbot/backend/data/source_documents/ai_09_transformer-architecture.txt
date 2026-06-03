@@ -1,0 +1,7 @@
+Transformer Architecture
+========================
+
+Transformers replace recurrence with self-attention for sequence modeling. Each token attends to all others to capture long-range dependencies. Multi-head attention learns diverse relationships. Positional encodings inject order information. Encoder-decoder designs power translation; decoder-only models power text generation. Layer normalization and residual connections stabilize training. Transformers scale with data and parameters, enabling foundation models.
+
+Document ID: ai_09
+Category: Artificial Intelligence

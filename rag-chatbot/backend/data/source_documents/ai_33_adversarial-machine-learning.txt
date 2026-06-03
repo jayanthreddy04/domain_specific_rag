@@ -1,0 +1,7 @@
+Adversarial Machine Learning
+============================
+
+Adversarial examples are inputs crafted to fool models with imperceptible perturbations. Attacks target classification, detection, and generative systems. Defenses include adversarial training, input preprocessing, and certified robustness. Red teams evaluate model vulnerabilities before deployment. Security-critical applications like autonomous driving require rigorous testing. Understanding attack surfaces guides architecture and monitoring choices.
+
+Document ID: ai_33
+Category: Artificial Intelligence

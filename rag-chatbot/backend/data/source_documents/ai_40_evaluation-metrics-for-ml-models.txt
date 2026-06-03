@@ -1,0 +1,7 @@
+Evaluation Metrics for ML Models
+================================
+
+Choosing metrics aligns with business goals and data characteristics. Imbalanced classification favors precision-recall over accuracy. Regression uses MAE, RMSE, and R-squared. Ranking tasks use MAP and NDCG. Calibration measures probability reliability. Fairness metrics assess subgroup performance. Statistical significance tests compare model variants. Holistic evaluation includes latency, cost, and maintainability.
+
+Document ID: ai_40
+Category: Artificial Intelligence

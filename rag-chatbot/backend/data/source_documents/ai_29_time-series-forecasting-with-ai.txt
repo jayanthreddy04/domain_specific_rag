@@ -1,0 +1,7 @@
+Time Series Forecasting with AI
+===============================
+
+Neural networks model temporal dependencies in demand, finance, and IoT data. RNNs, LSTMs, and temporal convolutional networks capture seasonality. Transformers apply attention across time steps. Feature engineering includes lags, rolling statistics, and holidays. Probabilistic forecasts quantify uncertainty. Concept drift requires periodic retraining. Classical ARIMA models remain strong baselines for many series.
+
+Document ID: ai_29
+Category: Artificial Intelligence

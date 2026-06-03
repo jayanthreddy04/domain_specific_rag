@@ -1,0 +1,7 @@
+Active Learning Strategies
+==========================
+
+Active learning reduces labeling cost by querying the most informative samples. Uncertainty sampling selects points near decision boundaries. Query-by-committee uses disagreement among ensemble models. Diversity sampling covers feature space broadly. Human labelers provide answers for selected batches. Iterative loops retrain models until performance targets are met. Production systems integrate active learning with annotation workflows.
+
+Document ID: ai_41
+Category: Artificial Intelligence

@@ -1,0 +1,7 @@
+Tokenization and Text Preprocessing
+===================================
+
+Tokenization splits text into subword units balancing vocabulary size and coverage. Byte-pair encoding and SentencePiece are common algorithms. Preprocessing includes lowercasing, unicode normalization, and stopword removal depending on task. Chunking strategies affect retrieval quality in RAG systems. Metadata extraction captures titles, authors, and sections. Clean corpora improve embedding and generation quality.
+
+Document ID: ai_47
+Category: Artificial Intelligence

@@ -1,0 +1,7 @@
+Convolutional Neural Network Architectures
+==========================================
+
+CNN architectures stack convolution, pooling, and fully connected layers. Famous designs include LeNet, AlexNet, VGG, ResNet with skip connections, and EfficientNet scaling. Kernels detect local patterns like edges and textures. Stride and padding control spatial dimensions. Batch normalization stabilizes activations. Transfer learning from ImageNet pretrained weights accelerates custom vision tasks.
+
+Document ID: ai_51
+Category: Artificial Intelligence

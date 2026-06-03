@@ -1,0 +1,7 @@
+Fine-Tuning and Transfer Learning
+=================================
+
+Transfer learning adapts pretrained models to new tasks with less data. Fine-tuning updates some or all model weights on domain-specific corpora. Parameter-efficient methods like LoRA and adapters train small modules. Feature extraction freezes backbone layers. Domain adaptation handles distribution shift between source and target data. Choosing learning rates and epochs prevents catastrophic forgetting of general capabilities.
+
+Document ID: ai_20
+Category: Artificial Intelligence

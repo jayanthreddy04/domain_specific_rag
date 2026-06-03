@@ -1,0 +1,7 @@
+Graph Neural Networks
+=====================
+
+Graph neural networks learn on relational data like social networks and molecules. Message passing aggregates neighbor features iteratively. Applications include fraud detection, drug discovery, and traffic prediction. Heterogeneous graphs contain multiple node and edge types. Scalability uses sampling and distributed training. GNNs complement transformers for structured inductive biases.
+
+Document ID: ai_35
+Category: Artificial Intelligence

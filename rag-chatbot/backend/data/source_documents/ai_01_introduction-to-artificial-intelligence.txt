@@ -1,0 +1,7 @@
+Introduction to Artificial Intelligence
+=======================================
+
+Artificial Intelligence (AI) is the field of computer science focused on creating systems that perform tasks requiring human-like intelligence. Core goals include reasoning, learning, perception, and language understanding. Modern AI combines symbolic methods, statistical learning, and large-scale neural networks. Applications span healthcare, finance, robotics, and education. Responsible AI development requires attention to bias, transparency, safety, and human oversight.
+
+Document ID: ai_01
+Category: Artificial Intelligence

@@ -1,0 +1,7 @@
+Federated Learning
+==================
+
+Federated learning trains models across decentralized devices without sharing raw data. Clients compute local updates; servers aggregate gradients securely. Differential privacy adds noise to protect individuals. Communication efficiency matters for mobile networks. Heterogeneous data distributions challenge convergence. Applications include keyboard predictions and healthcare collaborations across hospitals.
+
+Document ID: ai_31
+Category: Artificial Intelligence

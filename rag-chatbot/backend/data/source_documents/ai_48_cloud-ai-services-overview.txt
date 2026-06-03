@@ -1,0 +1,7 @@
+Cloud AI Services Overview
+==========================
+
+Cloud providers offer managed training, inference, and vector search. Services include SageMaker, Vertex AI, Azure OpenAI, and Bedrock. Benefits are scalability and integrated security. Considerations include vendor lock-in, data residency, and cost monitoring. Hybrid architectures keep sensitive data on-premises while using cloud GPUs for burst workloads. API rate limits and SLAs govern production planning.
+
+Document ID: ai_48
+Category: Artificial Intelligence

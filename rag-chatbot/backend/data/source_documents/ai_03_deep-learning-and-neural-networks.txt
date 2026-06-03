@@ -1,0 +1,7 @@
+Deep Learning and Neural Networks
+=================================
+
+Deep learning uses multi-layer neural networks to learn hierarchical representations from data. Layers of neurons apply weighted sums and nonlinear activations such as ReLU. Convolutional neural networks excel at images; recurrent and transformer architectures excel at sequences. Training uses backpropagation and optimizers like Adam. Challenges include vanishing gradients, data requirements, and compute cost. Transfer learning reuses pretrained models for new tasks.
+
+Document ID: ai_03
+Category: Artificial Intelligence

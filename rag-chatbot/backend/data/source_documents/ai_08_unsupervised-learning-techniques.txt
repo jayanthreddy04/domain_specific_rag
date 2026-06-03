@@ -1,0 +1,7 @@
+Unsupervised Learning Techniques
+================================
+
+Unsupervised learning finds patterns without labeled targets. Clustering groups similar points using k-means, hierarchical, or density-based methods. Dimensionality reduction methods like PCA and t-SNE visualize high-dimensional data. Anomaly detection identifies rare events. Association rule mining discovers co-occurrence in transactions. Autoencoders learn compressed representations. Evaluation is harder than supervised settings and often uses intrinsic metrics or downstream task performance.
+
+Document ID: ai_08
+Category: Artificial Intelligence

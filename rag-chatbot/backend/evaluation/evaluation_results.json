@@ -1,0 +1,1127 @@
+{
+  "retrieval": {
+    "results": [
+      {
+        "question": "What is artificial intelligence and what are its core goals?",
+        "retrievedIds": [
+          "ai_01_chunk_0",
+          "ai_45_chunk_0",
+          "ai_30_chunk_0",
+          "ai_49_chunk_0",
+          "ai_52_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_01"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is the difference between supervised and unsupervised learning?",
+        "retrievedIds": [
+          "ai_08_chunk_0",
+          "ai_02_chunk_0",
+          "ai_07_chunk_0",
+          "ai_38_chunk_0",
+          "ai_32_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_02",
+          "ai_07",
+          "ai_08"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.16666666666666666,
+        "precision@3": 1,
+        "recall@3": 0.5,
+        "precision@5": 0.6,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "How do convolutional neural networks process images?",
+        "retrievedIds": [
+          "ai_51_chunk_0",
+          "ai_03_chunk_0",
+          "ai_05_chunk_0",
+          "ai_36_chunk_0",
+          "ai_18_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_05",
+          "ai_51"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.25,
+        "precision@3": 0.6666666666666666,
+        "recall@3": 0.5,
+        "precision@5": 0.4,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is a transformer and why is self-attention important?",
+        "retrievedIds": [
+          "ai_09_chunk_0",
+          "ai_52_chunk_0",
+          "ai_04_chunk_0",
+          "ai_03_chunk_0",
+          "ai_10_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_09",
+          "ai_52"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.25,
+        "precision@3": 0.6666666666666666,
+        "recall@3": 0.5,
+        "precision@5": 0.4,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "How does retrieval-augmented generation improve LLM answers?",
+        "retrievedIds": [
+          "ai_11_chunk_0",
+          "ai_10_chunk_0",
+          "ai_50_chunk_0",
+          "ai_46_chunk_0",
+          "ai_42_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_11",
+          "ai_50"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.25,
+        "precision@3": 0.6666666666666666,
+        "recall@3": 0.5,
+        "precision@5": 0.4,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What are vector databases used for in AI applications?",
+        "retrievedIds": [
+          "ai_12_chunk_0",
+          "ai_08_chunk_0",
+          "ai_01_chunk_0",
+          "ai_48_chunk_0",
+          "ai_26_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_12"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is overfitting and how can it be reduced?",
+        "retrievedIds": [
+          "ai_14_chunk_0",
+          "ai_07_chunk_0",
+          "ai_16_chunk_0",
+          "ai_39_chunk_0",
+          "ai_33_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_14"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What ethical issues arise from bias in AI systems?",
+        "retrievedIds": [
+          "ai_15_chunk_0",
+          "ai_17_chunk_0",
+          "ai_01_chunk_0",
+          "ai_49_chunk_0",
+          "ai_43_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_15",
+          "ai_17"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.25,
+        "precision@3": 0.6666666666666666,
+        "recall@3": 0.5,
+        "precision@5": 0.4,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is explainable AI?",
+        "retrievedIds": [
+          "ai_16_chunk_0",
+          "ai_01_chunk_0",
+          "ai_45_chunk_0",
+          "ai_23_chunk_0",
+          "ai_08_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_16"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "How does reinforcement learning work?",
+        "retrievedIds": [
+          "ai_06_chunk_0",
+          "ai_02_chunk_0",
+          "ai_16_chunk_0",
+          "ai_30_chunk_0",
+          "ai_10_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_06"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What are large language models?",
+        "retrievedIds": [
+          "ai_10_chunk_0",
+          "ai_04_chunk_0",
+          "ai_36_chunk_0",
+          "ai_13_chunk_0",
+          "ai_12_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_10"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is prompt engineering?",
+        "retrievedIds": [
+          "ai_19_chunk_0",
+          "ai_10_chunk_0",
+          "ai_39_chunk_0",
+          "ai_17_chunk_0",
+          "ai_33_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_19"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is transfer learning and fine-tuning?",
+        "retrievedIds": [
+          "ai_20_chunk_0",
+          "ai_03_chunk_0",
+          "ai_02_chunk_0",
+          "ai_08_chunk_0",
+          "ai_39_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_20"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is MLOps?",
+        "retrievedIds": [
+          "ai_21_chunk_0",
+          "ai_40_chunk_0",
+          "ai_32_chunk_0",
+          "ai_37_chunk_0",
+          "ai_48_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_21"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is edge AI?",
+        "retrievedIds": [
+          "ai_22_chunk_0",
+          "ai_37_chunk_0",
+          "ai_35_chunk_0",
+          "ai_48_chunk_0",
+          "ai_45_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_22"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "How is AI used in healthcare?",
+        "retrievedIds": [
+          "ai_01_chunk_0",
+          "ai_23_chunk_0",
+          "ai_16_chunk_0",
+          "ai_43_chunk_0",
+          "ai_17_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_23"
+        ],
+        "precision@1": 0,
+        "recall@1": 0,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 0.5,
+        "hitRate": 1
+      },
+      {
+        "question": "How does machine learning help cybersecurity?",
+        "retrievedIds": [
+          "ai_24_chunk_0",
+          "ai_33_chunk_0",
+          "ai_08_chunk_0",
+          "ai_02_chunk_0",
+          "ai_07_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_24"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is federated learning?",
+        "retrievedIds": [
+          "ai_31_chunk_0",
+          "ai_32_chunk_0",
+          "ai_08_chunk_0",
+          "ai_37_chunk_0",
+          "ai_02_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_31"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is differential privacy in machine learning?",
+        "retrievedIds": [
+          "ai_32_chunk_0",
+          "ai_31_chunk_0",
+          "ai_08_chunk_0",
+          "ai_23_chunk_0",
+          "ai_33_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_32"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What are adversarial examples?",
+        "retrievedIds": [
+          "ai_33_chunk_0",
+          "ai_24_chunk_0",
+          "ai_15_chunk_0",
+          "ai_16_chunk_0",
+          "ai_02_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_33"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What are graph neural networks?",
+        "retrievedIds": [
+          "ai_35_chunk_0",
+          "ai_26_chunk_0",
+          "ai_03_chunk_0",
+          "ai_06_chunk_0",
+          "ai_01_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_35"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is multimodal AI?",
+        "retrievedIds": [
+          "ai_36_chunk_0",
+          "ai_45_chunk_0",
+          "ai_49_chunk_0",
+          "ai_52_chunk_0",
+          "ai_25_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_36"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What hardware accelerates deep learning?",
+        "retrievedIds": [
+          "ai_37_chunk_0",
+          "ai_03_chunk_0",
+          "ai_22_chunk_0",
+          "ai_51_chunk_0",
+          "ai_13_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_37"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is semantic search?",
+        "retrievedIds": [
+          "ai_42_chunk_0",
+          "ai_12_chunk_0",
+          "ai_26_chunk_0",
+          "ai_11_chunk_0",
+          "ai_04_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_42"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "How can LLM hallucinations be mitigated?",
+        "retrievedIds": [
+          "ai_46_chunk_0",
+          "ai_10_chunk_0",
+          "ai_22_chunk_0",
+          "ai_19_chunk_0",
+          "ai_18_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_46"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What are AI agents?",
+        "retrievedIds": [
+          "ai_45_chunk_0",
+          "ai_01_chunk_0",
+          "ai_06_chunk_0",
+          "ai_43_chunk_0",
+          "ai_44_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_45"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is natural language processing used for?",
+        "retrievedIds": [
+          "ai_04_chunk_0",
+          "ai_10_chunk_0",
+          "ai_50_chunk_0",
+          "ai_47_chunk_0",
+          "ai_01_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_04"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is generative AI?",
+        "retrievedIds": [
+          "ai_18_chunk_0",
+          "ai_37_chunk_0",
+          "ai_33_chunk_0",
+          "ai_45_chunk_0",
+          "ai_36_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_18"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is a knowledge graph?",
+        "retrievedIds": [
+          "ai_26_chunk_0",
+          "ai_35_chunk_0",
+          "ai_08_chunk_0",
+          "ai_34_chunk_0",
+          "ai_01_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_26"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "How do recommendation systems work?",
+        "retrievedIds": [
+          "ai_28_chunk_0",
+          "ai_50_chunk_0",
+          "ai_10_chunk_0",
+          "ai_06_chunk_0",
+          "ai_12_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_28"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is active learning?",
+        "retrievedIds": [
+          "ai_41_chunk_0",
+          "ai_08_chunk_0",
+          "ai_38_chunk_0",
+          "ai_02_chunk_0",
+          "ai_07_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_41"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is AutoML?",
+        "retrievedIds": [
+          "ai_30_chunk_0",
+          "ai_08_chunk_0",
+          "ai_04_chunk_0",
+          "ai_01_chunk_0",
+          "ai_02_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_30"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What is causal inference in AI?",
+        "retrievedIds": [
+          "ai_34_chunk_0",
+          "ai_10_chunk_0",
+          "ai_16_chunk_0",
+          "ai_23_chunk_0",
+          "ai_01_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_34"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What are common NLP preprocessing steps for RAG?",
+        "retrievedIds": [
+          "ai_47_chunk_0",
+          "ai_50_chunk_0",
+          "ai_04_chunk_0",
+          "ai_11_chunk_0",
+          "ai_10_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_47",
+          "ai_50"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.25,
+        "precision@3": 0.6666666666666666,
+        "recall@3": 0.5,
+        "precision@5": 0.4,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      },
+      {
+        "question": "What does the EU AI Act emphasize for organizations?",
+        "retrievedIds": [
+          "ai_43_chunk_0",
+          "ai_17_chunk_0",
+          "ai_01_chunk_0",
+          "ai_49_chunk_0",
+          "ai_15_chunk_0"
+        ],
+        "relevantDocIds": [
+          "ai_43"
+        ],
+        "precision@1": 1,
+        "recall@1": 0.5,
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "mrr": 1,
+        "hitRate": 1
+      }
+    ],
+    "summary": {
+      "kValues": [
+        1,
+        3,
+        5
+      ],
+      "count": 35,
+      "avg_precision@1": 0.9714285714285714,
+      "avg_recall@1": 0.44047619047619047,
+      "avg_precision@3": 0.40000000000000013,
+      "avg_recall@3": 0.5,
+      "avg_precision@5": 0.2400000000000001,
+      "avg_recall@5": 0.5,
+      "avgMRR": 0.9857142857142858,
+      "avgHitRate": 1
+    }
+  },
+  "quality": {
+    "qualityResults": [
+      {
+        "question": "What is artificial intelligence and what are its core goals?",
+        "expectedAnswer": "Artificial Intelligence is a field of computer science focused on creating systems that perform tasks requiring human-like intelligence, including reasoning, learning, perception, and language understanding.",
+        "generatedAnswer": "Introduction to Artificial Intelligence ======================================= Artificial Intelligence (AI) is the field of computer science focused on creating systems that perform tasks requiring human-like intelligence. Core goals include reasoning, learning, perception, and language understandi",
+        "correctness": 0.76,
+        "faithfulness": 0.96,
+        "contextRelevance": 0.07107692307692308,
+        "completeness": 0.9047619047619048,
+        "responseTimeMs": 256
+      },
+      {
+        "question": "What is the difference between supervised and unsupervised learning?",
+        "expectedAnswer": "Supervised learning uses labeled examples to predict outputs, while unsupervised learning discovers structure in unlabeled data without labeled targets.",
+        "generatedAnswer": "Unsupervised Learning Techniques ================================ Unsupervised learning finds patterns without labeled targets. Clustering groups similar points using k-means, hierarchical, or density-based methods. Dimensionality reduction methods like PCA and t-SNE visualize high-dimensional data.",
+        "correctness": 0.21428571428571427,
+        "faithfulness": 1,
+        "contextRelevance": 0.0641398642986511,
+        "completeness": 0.4,
+        "responseTimeMs": 176
+      },
+      {
+        "question": "How do convolutional neural networks process images?",
+        "expectedAnswer": "CNNs stack convolution and pooling layers to detect local patterns like edges and textures, using kernels and architectures such as ResNet with skip connections.",
+        "generatedAnswer": "Convolutional Neural Network Architectures ========================================== CNN architectures stack convolution, pooling, and fully connected layers. Famous designs include LeNet, AlexNet, VGG, ResNet with skip connections, and EfficientNet scaling. Kernels detect local patterns like edges",
+        "correctness": 0.5333333333333333,
+        "faithfulness": 1,
+        "contextRelevance": 0.044019118281381324,
+        "completeness": 0.8,
+        "responseTimeMs": 185
+      },
+      {
+        "question": "What is a transformer and why is self-attention important?",
+        "expectedAnswer": "Transformers use self-attention so each token can relate to all others, capturing long-range dependencies without recurrence, enabling scalable sequence modeling.",
+        "generatedAnswer": "Transformer Architecture ======================== Transformers replace recurrence with self-attention for sequence modeling. Each token attends to all others to capture long-range dependencies. Multi-head attention learns diverse relationships. Positional encodings inject order information. Encoder-",
+        "correctness": 0.41935483870967744,
+        "faithfulness": 1,
+        "contextRelevance": 0.052919080919080916,
+        "completeness": 0.65,
+        "responseTimeMs": 188
+      },
+      {
+        "question": "How does retrieval-augmented generation improve LLM answers?",
+        "expectedAnswer": "RAG retrieves relevant document chunks via embeddings and vector search, then conditions the language model on that context to improve factual accuracy and enable citations.",
+        "generatedAnswer": "Retrieval-Augmented Generation ============================== Retrieval-Augmented Generation (RAG) combines information retrieval with language model generation. Documents are chunked, embedded, and stored in vector databases. Queries retrieve relevant passages via similarity search. The LLM generat",
+        "correctness": 0.3333333333333333,
+        "faithfulness": 0.9629629629629629,
+        "contextRelevance": 0.05095645095645096,
+        "completeness": 0.4090909090909091,
+        "responseTimeMs": 185
+      },
+      {
+        "question": "What are vector databases used for in AI applications?",
+        "expectedAnswer": "Vector databases store embeddings for fast similarity search, enabling semantic retrieval with indexes like HNSW and metadata filtering.",
+        "generatedAnswer": "Vector Databases and Embeddings =============================== Vector databases store high-dimensional embeddings for fast similarity search. Embeddings map text, images, or audio into dense vectors capturing semantic meaning. Approximate nearest neighbor indexes like HNSW enable scalable retrieval",
+        "correctness": 0.4666666666666667,
+        "faithfulness": 1,
+        "contextRelevance": 0.03789114266396214,
+        "completeness": 0.7777777777777778,
+        "responseTimeMs": 190
+      },
+      {
+        "question": "What is overfitting and how can it be reduced?",
+        "expectedAnswer": "Overfitting is when models memorize training noise; regularization techniques include dropout, data augmentation, L1/L2 penalties, and simpler models with more data.",
+        "generatedAnswer": "Overfitting and Regularization ============================== Overfitting occurs when models memorize training noise and fail on new data. Regularization constrains model complexity. Dropout randomly disables neurons during training. Data augmentation artificially expands datasets. L1 sparsity and L",
+        "correctness": 0.44,
+        "faithfulness": 1,
+        "contextRelevance": 0.026913281188213806,
+        "completeness": 0.6470588235294118,
+        "responseTimeMs": 182
+      },
+      {
+        "question": "What ethical issues arise from bias in AI systems?",
+        "expectedAnswer": "AI can perpetuate societal biases from training data; mitigation includes balanced sampling, fairness metrics, transparency, and diverse stakeholder engagement.",
+        "generatedAnswer": "Bias and Fairness in AI ======================= AI systems can perpetuate societal biases present in training data. Fairness metrics evaluate disparate impact across demographic groups. Mitigation includes balanced sampling, adversarial debiasing, and fairness constraints. Transparency through model",
+        "correctness": 0.5,
+        "faithfulness": 1,
+        "contextRelevance": 0.023239477503628446,
+        "completeness": 0.7777777777777778,
+        "responseTimeMs": 168
+      },
+      {
+        "question": "What is explainable AI?",
+        "expectedAnswer": "Explainable AI helps users understand model decisions using interpretable models or post-hoc methods like SHAP, LIME, and attention visualization.",
+        "generatedAnswer": "Explainable AI Methods ====================== Explainable AI helps users understand model decisions. Intrinsic interpretability uses simple models like linear regression and decision trees. Post-hoc methods include SHAP values, LIME, and attention visualization. Counterfactual explanations show mini",
+        "correctness": 0.5333333333333333,
+        "faithfulness": 0.9666666666666667,
+        "contextRelevance": 0.0037037037037037034,
+        "completeness": 0.8888888888888888,
+        "responseTimeMs": 170
+      },
+      {
+        "question": "How does reinforcement learning work?",
+        "expectedAnswer": "Reinforcement learning trains agents to maximize cumulative reward through states, actions, policies, and algorithms like Q-learning and policy gradients.",
+        "generatedAnswer": "Reinforcement Learning Principles ================================= Reinforcement learning trains agents to maximize cumulative reward in environments. Components include states, actions, policies, and value functions. Exploration versus exploitation is central. Algorithms include Q-learning, SARSA,",
+        "correctness": 0.5217391304347826,
+        "faithfulness": 1,
+        "contextRelevance": 0.029399878506134715,
+        "completeness": 0.75,
+        "responseTimeMs": 176
+      },
+      {
+        "question": "What are large language models?",
+        "expectedAnswer": "LLMs are transformer-based models trained on massive text corpora with abilities in reasoning and dialogue, aligned via instruction tuning and RLHF.",
+        "generatedAnswer": "Large Language Models ===================== Large language models (LLMs) are transformer-based systems trained on massive text corpora. They exhibit emergent abilities in reasoning, coding, and dialogue. Pretraining objectives include causal language modeling and masked prediction. Instruction tunin",
+        "correctness": 0.4827586206896552,
+        "faithfulness": 0.9655172413793104,
+        "contextRelevance": 0.05356151466817064,
+        "completeness": 0.7368421052631579,
+        "responseTimeMs": 187
+      },
+      {
+        "question": "What is prompt engineering?",
+        "expectedAnswer": "Prompt engineering designs LLM inputs using zero-shot, few-shot, chain-of-thought techniques, system messages, and temperature control for reliable outputs.",
+        "generatedAnswer": "Prompt Engineering Techniques ============================= Prompt engineering designs inputs that elicit reliable LLM behavior. Zero-shot prompts rely on pretrained knowledge. Few-shot prompts include exemplars demonstrating desired format. Chain-of-thought prompting encourages step-by-step reasoni",
+        "correctness": 0.42857142857142855,
+        "faithfulness": 0.9642857142857143,
+        "contextRelevance": 0.011272727272727273,
+        "completeness": 0.6,
+        "responseTimeMs": 177
+      },
+      {
+        "question": "What is transfer learning and fine-tuning?",
+        "expectedAnswer": "Transfer learning adapts pretrained models to new tasks; fine-tuning updates weights on domain data, with efficient methods like LoRA and adapters.",
+        "generatedAnswer": "Fine-Tuning and Transfer Learning ================================= Transfer learning adapts pretrained models to new tasks with less data. Fine-tuning updates some or all model weights on domain-specific corpora. Parameter-efficient methods like LoRA and adapters train small modules. Feature extrac",
+        "correctness": 0.625,
+        "faithfulness": 0.96875,
+        "contextRelevance": 0.05185418493357833,
+        "completeness": 1,
+        "responseTimeMs": 187
+      },
+      {
+        "question": "What is MLOps?",
+        "expectedAnswer": "MLOps applies DevOps to ML lifecycles including versioning, CI/CD, deployment APIs, monitoring drift, and containerized scalable serving.",
+        "generatedAnswer": "MLOps and Model Deployment ========================== MLOps applies DevOps practices to machine learning lifecycles. Pipelines version data, code, and models reproducibly. Continuous integration tests training scripts. Continuous deployment serves models via REST or gRPC APIs. Monitoring tracks late",
+        "correctness": 0.27586206896551724,
+        "faithfulness": 0.9655172413793104,
+        "contextRelevance": 0.0038461538461538464,
+        "completeness": 0.5714285714285714,
+        "responseTimeMs": 174
+      },
+      {
+        "question": "What is edge AI?",
+        "expectedAnswer": "Edge AI runs models on devices for low latency and privacy, using compression like quantization and frameworks such as TensorFlow Lite.",
+        "generatedAnswer": "Edge AI and On-Device Inference =============================== Edge AI runs models on devices like phones, cameras, and IoT sensors. Benefits include low latency, privacy, and offline operation. Model compression uses quantization, pruning, and knowledge distillation. Hardware accelerators include ",
+        "correctness": 0.39285714285714285,
+        "faithfulness": 1,
+        "contextRelevance": 0.008336951801997394,
+        "completeness": 0.6470588235294118,
+        "responseTimeMs": 180
+      },
+      {
+        "question": "How is AI used in healthcare?",
+        "expectedAnswer": "Healthcare AI supports diagnosis, imaging, clinical NLP, and predictive analytics while requiring regulatory compliance and clinician oversight.",
+        "generatedAnswer": "Introduction to Artificial Intelligence ======================================= Artificial Intelligence (AI) is the field of computer science focused on creating systems that perform tasks requiring human-like intelligence. Core goals include reasoning, learning, perception, and language understandi",
+        "correctness": 0.08,
+        "faithfulness": 0.96,
+        "contextRelevance": 0.011625272331154684,
+        "completeness": 0.13333333333333333,
+        "responseTimeMs": 173
+      },
+      {
+        "question": "How does machine learning help cybersecurity?",
+        "expectedAnswer": "ML enhances cybersecurity via anomaly detection, malware classification, and phishing identification while facing adversarial evasion risks.",
+        "generatedAnswer": "AI for Cybersecurity ==================== Machine learning enhances cybersecurity through anomaly detection, malware classification, and phishing identification. Models analyze network traffic patterns and endpoint logs. Adversarial attacks can evade classifiers, requiring robust training. SOAR plat",
+        "correctness": 0.3333333333333333,
+        "faithfulness": 0.9666666666666667,
+        "contextRelevance": 0.032499998724899,
+        "completeness": 0.6666666666666666,
+        "responseTimeMs": 190
+      },
+      {
+        "question": "What is federated learning?",
+        "expectedAnswer": "Federated learning trains across decentralized devices without sharing raw data, aggregating local updates with optional differential privacy.",
+        "generatedAnswer": "Federated Learning ================== Federated learning trains models across decentralized devices without sharing raw data. Clients compute local updates; servers aggregate gradients securely. Differential privacy adds noise to protect individuals. Communication efficiency matters for mobile netwo",
+        "correctness": 0.45161290322580644,
+        "faithfulness": 0.967741935483871,
+        "contextRelevance": 0.028666816493747232,
+        "completeness": 0.8235294117647058,
+        "responseTimeMs": 173
+      },
+      {
+        "question": "What is differential privacy in machine learning?",
+        "expectedAnswer": "Differential privacy limits information leakage about individuals by adding controlled noise with privacy budgets defined by epsilon and delta.",
+        "generatedAnswer": "Differential Privacy in ML ========================== Differential privacy provides mathematical guarantees limiting information leakage about individuals. Noise injection during training or query responses enforces privacy budgets. Epsilon and delta parameters quantify privacy loss. Tradeoffs exist",
+        "correctness": 0.4230769230769231,
+        "faithfulness": 1,
+        "contextRelevance": 0.041260890030418454,
+        "completeness": 0.6875,
+        "responseTimeMs": 171
+      },
+      {
+        "question": "What are adversarial examples?",
+        "expectedAnswer": "Adversarial examples are crafted inputs designed to fool models with small perturbations; defenses include adversarial training and robustness testing.",
+        "generatedAnswer": "Adversarial Machine Learning ============================ Adversarial examples are inputs crafted to fool models with imperceptible perturbations. Attacks target classification, detection, and generative systems. Defenses include adversarial training, input preprocessing, and certified robustness. R",
+        "correctness": 0.5384615384615384,
+        "faithfulness": 1,
+        "contextRelevance": 0.022312044129323173,
+        "completeness": 0.8235294117647058,
+        "responseTimeMs": 180
+      },
+      {
+        "question": "What are graph neural networks?",
+        "expectedAnswer": "GNNs learn on graph-structured data using message passing for applications like fraud detection, molecules, and traffic prediction.",
+        "generatedAnswer": "Graph Neural Networks ===================== Graph neural networks learn on relational data like social networks and molecules. Message passing aggregates neighbor features iteratively. Applications include fraud detection, drug discovery, and traffic prediction. Heterogeneous graphs contain multiple",
+        "correctness": 0.4642857142857143,
+        "faithfulness": 1,
+        "contextRelevance": 0.05227901985609733,
+        "completeness": 0.7647058823529411,
+        "responseTimeMs": 181
+      },
+      {
+        "question": "What is multimodal AI?",
+        "expectedAnswer": "Multimodal AI processes text, images, audio, and video jointly, often aligning embeddings with models like CLIP and unified transformers.",
+        "generatedAnswer": "Multimodal AI Systems ===================== Multimodal models process text, images, audio, and video jointly. Contrastive learning aligns embeddings across modalities as in CLIP. Vision-language models answer questions about images. Unified transformers tokenize diverse inputs. Applications include ",
+        "correctness": 0.41379310344827586,
+        "faithfulness": 1,
+        "contextRelevance": 0.004651162790697674,
+        "completeness": 0.7058823529411765,
+        "responseTimeMs": 169
+      },
+      {
+        "question": "What hardware accelerates deep learning?",
+        "expectedAnswer": "GPUs, TPUs, and NPUs parallelize tensor operations; memory bandwidth and energy efficiency are key considerations for training and inference.",
+        "generatedAnswer": "AI Hardware Accelerators ======================== GPUs parallelize matrix operations essential for deep learning. TPUs optimize tensor computations at scale. NPUs in mobile chips enable efficient inference. Memory bandwidth often bottlenecks training. Cloud providers offer managed GPU clusters. Cust",
+        "correctness": 0.3333333333333333,
+        "faithfulness": 0.9696969696969697,
+        "contextRelevance": 0.03937365544508402,
+        "completeness": 0.6470588235294118,
+        "responseTimeMs": 180
+      },
+      {
+        "question": "What is semantic search?",
+        "expectedAnswer": "Semantic search retrieves by meaning using dense embeddings, often combined with BM25 hybrid retrieval and reranking for better relevance.",
+        "generatedAnswer": "Semantic Search Technology ========================== Semantic search retrieves by meaning rather than exact keyword match. Dense embeddings represent queries and documents in shared vector spaces. Hybrid search combines BM25 lexical scores with vector similarity via reciprocal rank fusion. Query ex",
+        "correctness": 0.3225806451612903,
+        "faithfulness": 1,
+        "contextRelevance": 0.025888208215794416,
+        "completeness": 0.5555555555555556,
+        "responseTimeMs": 183
+      },
+      {
+        "question": "How can LLM hallucinations be mitigated?",
+        "expectedAnswer": "Mitigations include retrieval grounding, confidence calibration, constrained decoding, self-consistency checks, and human review for critical facts.",
+        "generatedAnswer": "Hallucination Mitigation in LLMs ================================ Hallucinations are plausible but incorrect LLM outputs. Mitigations include retrieval grounding, confidence calibration, and self-consistency checks. Constrained decoding enforces formats. Human review remains important for high-stake",
+        "correctness": 0.4838709677419355,
+        "faithfulness": 0.967741935483871,
+        "contextRelevance": 0.01435064935064935,
+        "completeness": 0.8823529411764706,
+        "responseTimeMs": 188
+      },
+      {
+        "question": "What are AI agents?",
+        "expectedAnswer": "AI agents pursue goals by planning and using tools via patterns like ReAct, with memory and guardrails to limit unsafe actions.",
+        "generatedAnswer": "AI Agents and Tool Use ====================== AI agents pursue goals by planning actions and using external tools. ReAct patterns interleave reasoning and tool calls. APIs provide calculators, search, databases, and code execution. Memory stores conversation and retrieved facts. Multi-agent systems ",
+        "correctness": 0.3548387096774194,
+        "faithfulness": 1,
+        "contextRelevance": 0.011547169811320753,
+        "completeness": 0.6470588235294118,
+        "responseTimeMs": 175
+      },
+      {
+        "question": "What is natural language processing used for?",
+        "expectedAnswer": "NLP covers tokenization, NER, sentiment, translation, and question answering using transformers, embeddings, and large language models.",
+        "generatedAnswer": "Natural Language Processing Overview ==================================== Natural Language Processing (NLP) enables machines to understand, interpret, and generate human language. Tasks include tokenization, part-of-speech tagging, named entity recognition, sentiment analysis, machine translation, a",
+        "correctness": 0.24,
+        "faithfulness": 1,
+        "contextRelevance": 0.022956043956043955,
+        "completeness": 0.4,
+        "responseTimeMs": 180
+      },
+      {
+        "question": "What is generative AI?",
+        "expectedAnswer": "Generative AI creates text, images, audio, and code using models like diffusion networks and GANs, with risks around misinformation and copyright.",
+        "generatedAnswer": "Generative AI Applications ========================== Generative AI creates new content including text, images, audio, and code. Diffusion models synthesize images iteratively denoising latents. GANs pit generator and discriminator networks. Text generation powers chatbots, summarization, and creati",
+        "correctness": 0.4074074074074074,
+        "faithfulness": 0.9629629629629629,
+        "contextRelevance": 0.007695153533111357,
+        "completeness": 0.6111111111111112,
+        "responseTimeMs": 177
+      },
+      {
+        "question": "What is a knowledge graph?",
+        "expectedAnswer": "Knowledge graphs represent entities and relationships structurally, supporting reasoning, recommendations, and neuro-symbolic AI integration.",
+        "generatedAnswer": "Knowledge Graphs and Symbolic AI ================================ Knowledge graphs represent entities and relationships in structured form. They support query answering, recommendation, and reasoning. Symbolic AI uses logic rules and ontologies. Neuro-symbolic approaches combine neural learning with",
+        "correctness": 0.36,
+        "faithfulness": 1,
+        "contextRelevance": 0.012588652482269503,
+        "completeness": 0.6923076923076923,
+        "responseTimeMs": 176
+      },
+      {
+        "question": "How do recommendation systems work?",
+        "expectedAnswer": "They personalize via collaborative filtering, content-based features, hybrid deep models, and metrics like precision at k and NDCG.",
+        "generatedAnswer": "Recommendation Systems ====================== Recommendation systems personalize content and products. Collaborative filtering uses user-item interaction matrices. Content-based methods use item attributes. Hybrid models combine both signals. Deep learning captures nonlinear patterns. Cold-start pro",
+        "correctness": 0.3,
+        "faithfulness": 0.9666666666666667,
+        "contextRelevance": 0.022964752228903172,
+        "completeness": 0.5625,
+        "responseTimeMs": 178
+      },
+      {
+        "question": "What is active learning?",
+        "expectedAnswer": "Active learning selects the most informative unlabeled samples for human annotation to reduce labeling cost while improving models iteratively.",
+        "generatedAnswer": "Active Learning Strategies ========================== Active learning reduces labeling cost by querying the most informative samples. Uncertainty sampling selects points near decision boundaries. Query-by-committee uses disagreement among ensemble models. Diversity sampling covers feature space broa",
+        "correctness": 0.3333333333333333,
+        "faithfulness": 0.9666666666666667,
+        "contextRelevance": 0.025807693347390047,
+        "completeness": 0.5555555555555556,
+        "responseTimeMs": 175
+      },
+      {
+        "question": "What is AutoML?",
+        "expectedAnswer": "AutoML automates model and hyperparameter selection, including neural architecture search, accelerating experimentation for practitioners.",
+        "generatedAnswer": "AutoML and Neural Architecture Search ===================================== AutoML automates model selection, hyperparameter tuning, and pipeline design. Neural architecture search explores network topologies with reinforcement learning or evolutionary algorithms. Tools like Auto-sklearn and H2O dem",
+        "correctness": 0.34615384615384615,
+        "faithfulness": 0.9615384615384616,
+        "contextRelevance": 0.0038461538461538464,
+        "completeness": 0.6428571428571429,
+        "responseTimeMs": 185
+      },
+      {
+        "question": "What is causal inference in AI?",
+        "expectedAnswer": "Causal inference estimates intervention effects beyond correlation using experiments, structural models, and methods like propensity scores.",
+        "generatedAnswer": "Causal Inference and AI ======================= Causal inference estimates effects of interventions beyond correlation. Structural causal models represent variables and mechanisms. Randomized experiments provide gold-standard evidence. Observational methods use propensity scores and instrumental var",
+        "correctness": 0.5,
+        "faithfulness": 0.9615384615384616,
+        "contextRelevance": 0.01246031746031746,
+        "completeness": 0.8125,
+        "responseTimeMs": 169
+      },
+      {
+        "question": "What are common NLP preprocessing steps for RAG?",
+        "expectedAnswer": "Preprocessing includes tokenization, normalization, chunking, and metadata extraction, which affect embedding quality and retrieval performance.",
+        "generatedAnswer": "Tokenization and Text Preprocessing =================================== Tokenization splits text into subword units balancing vocabulary size and coverage. Byte-pair encoding and SentencePiece are common algorithms. Preprocessing includes lowercasing, unicode normalization, and stopword removal depe",
+        "correctness": 0.19230769230769232,
+        "faithfulness": 0.9615384615384616,
+        "contextRelevance": 0.04627158555729984,
+        "completeness": 0.35714285714285715,
+        "responseTimeMs": 181
+      },
+      {
+        "question": "What does the EU AI Act emphasize for organizations?",
+        "expectedAnswer": "AI regulation requires risk classification, documentation, data governance, audit trails, and human oversight especially for high-risk applications.",
+        "generatedAnswer": "AI Regulation and Compliance ============================ Governments propose AI acts requiring risk classification and documentation. High-risk applications include hiring, credit scoring, and medical devices. Compliance involves data governance, audit trails, and human oversight. The EU AI Act inf",
+        "correctness": 0.4642857142857143,
+        "faithfulness": 0.9642857142857143,
+        "contextRelevance": 0.0273933236574746,
+        "completeness": 0.8125,
+        "responseTimeMs": 176
+      }
+    ],
+    "summary": {
+      "count": 35,
+      "avgCorrectness": 0.4077077364689756,
+      "avgFaithfulness": 0.9808784208343636,
+      "avgContextRelevance": 0.028559114767683073,
+      "avgCompleteness": 0.6669809469610443,
+      "avgResponseTimeMs": 181.17142857142858
+    }
+  },
+  "generatedAt": "2026-06-03T04:07:09.584Z"
+}

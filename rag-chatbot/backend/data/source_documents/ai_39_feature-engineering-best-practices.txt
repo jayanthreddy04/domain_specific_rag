@@ -1,0 +1,7 @@
+Feature Engineering Best Practices
+==================================
+
+Feature engineering transforms raw data into informative inputs. Techniques include scaling, encoding categoricals, binning, and polynomial terms. Domain knowledge guides meaningful features in tabular data. Deep learning often learns features automatically from raw signals. Feature stores ensure training-serving consistency. Leakage occurs when future information enters training features, inflating metrics unrealistically.
+
+Document ID: ai_39
+Category: Artificial Intelligence
