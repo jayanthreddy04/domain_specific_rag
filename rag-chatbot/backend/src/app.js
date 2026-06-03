@@ -18,6 +18,10 @@ function corsOrigin(origin, callback) {
     callback(null, true);
     return;
   }
+  if (env.allowVercelOrigins && /^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(origin)) {
+    callback(null, true);
+    return;
+  }
   if (allowedOrigins.includes(origin)) {
     callback(null, true);
     return;

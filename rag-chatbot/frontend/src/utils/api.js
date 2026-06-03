@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api/chat';
+const API_BASE_URL = process.env.REACT_APP_API_URL || '/api/chat';
 
 const client = axios.create({
   baseURL: API_BASE_URL,

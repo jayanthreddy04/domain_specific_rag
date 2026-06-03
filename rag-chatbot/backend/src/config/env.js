@@ -19,6 +19,7 @@ module.exports = {
   hybridAlpha: parseFloat(process.env.HYBRID_ALPHA) || 0.7,
   embeddingModel: process.env.EMBEDDING_MODEL || 'Xenova/all-MiniLM-L6-v2',
   frontendUrl: process.env.FRONTEND_URL || 'http://localhost:3000',
+  allowVercelOrigins: process.env.ALLOW_VERCEL_ORIGINS !== 'false',
   documentsPath: process.env.DOCUMENTS_PATH || './data/source_documents',
   useLocalVectorStore: process.env.USE_LOCAL_VECTOR_STORE === 'true',
   minRelevanceScore: parseFloat(process.env.MIN_RELEVANCE_SCORE) || 0.32,

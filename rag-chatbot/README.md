@@ -62,6 +62,78 @@ npm run evaluate                 # full evaluation with Groq answers
 
 Report: `backend/evaluation/evaluation_report.md`
 
+## Deploy To Vercel
+
+This repo is prepared to deploy as one Vercel project:
+
+- React is built from `frontend/` and served as the site.
+- Express is exposed as a serverless API through `api/index.js`.
+- Frontend API calls default to same-origin `/api/chat`, so no production API URL is required when frontend and backend are deployed together.
+- The knowledge base is stored in ChromaDB. For Vercel, use Chroma Cloud or another hosted ChromaDB endpoint.
+
+### Required environment variables
+
+Set these in **Vercel Project Settings → Environment Variables**:
+
+```bash
+GROQ_API_KEY=your_groq_key
+GROQ_MODEL=llama-3.3-70b-versatile
+USE_LOCAL_VECTOR_STORE=false
+CHROMA_HOST=api.trychroma.com
+CHROMA_API_KEY=your_chroma_cloud_api_key
+CHROMA_TENANT=your_tenant_uuid
+CHROMA_DATABASE=your_database_name
+CHROMA_COLLECTION=ai_knowledge_base
+NODE_ENV=production
+```
+
+Optional:
+
+```bash
+FRONTEND_URL=https://your-project.vercel.app
+ALLOW_VERCEL_ORIGINS=true
+LOG_LEVEL=info
+```
+
+### Ingest documents into ChromaDB
+
+Before the deployed chatbot can answer from your documents, ingest the knowledge base into the same Chroma database configured above. On your machine:
+
+```bash
+cd rag-chatbot/backend
+cp .env.example .env
+# Fill GROQ_API_KEY and CHROMA_* values in .env
+npm install
+npm run setup
+```
+
+Confirm Chroma has data:
+
+```bash
+npm run dev
+curl http://localhost:5001/api/chat/health
+```
+
+### Vercel settings
+
+When importing the Git repo into Vercel:
+
+- **Root Directory:** `rag-chatbot`
+- **Framework Preset:** Other or Create React App
+- **Build Command:** `npm run vercel-build`
+- **Output Directory:** `frontend/build`
+- **Install Command:** `npm install`
+
+After deploy, test:
+
+```bash
+curl https://your-project.vercel.app/api/chat/health
+```
+
+Then open `https://your-project.vercel.app` and send a chat question.
+
+Note: the backend uses `@xenova/transformers` for embeddings, which can make Vercel serverless cold starts slow. If you see function timeout or bundle-size errors, keep the React frontend on Vercel and deploy the backend on a long-running Node host such as Render, Railway, Fly.io, or a VPS, then set `REACT_APP_API_URL=https://your-backend-domain/api/chat` in Vercel.
+
 ## API Endpoints
 
 | Method | Path | Description |

@@ -2,7 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const { cosineSimilarity } = require('../utils/rerank');
 
-const STORE_PATH = path.resolve('./data/local_vector_store.json');
+const STORE_PATH =
+  process.env.LOCAL_VECTOR_STORE_PATH ||
+  path.resolve(__dirname, '../../data/local_vector_store.json');
 
 function loadStore() {
   if (!fs.existsSync(STORE_PATH)) {

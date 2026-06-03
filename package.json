@@ -1,0 +1,18 @@
+{
+  "name": "domain-specific-rag",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "rag-chatbot/frontend",
+    "rag-chatbot/backend"
+  ],
+  "scripts": {
+    "vercel-build": "npm run build --workspace rag-chatbot-frontend",
+    "build": "npm run vercel-build",
+    "setup:kb": "npm run setup --workspace rag-chatbot-backend",
+    "evaluate": "npm run evaluate --workspace rag-chatbot-backend"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
